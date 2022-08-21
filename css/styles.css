@@ -1,5 +1,43 @@
+h1 {
+  margin-bottom: 0.5em;
+  font-size: 3.6rem;
+}
+p {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+li{
+    margin-bottom: 0.5em;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+em{
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.italic-title{
+  font-family: 'Satisfy','serif';
+  font-size: 4rem;
+  text-align: center;
+}
+
+.custom-title{
+  font-family: 'Caudex','serif';
+  font-size:4rem;
+  text-align: center;
+}
+
+
 .logo{
     font-family: 'Sacramento';
+}
+
+.logo-img{
+  height: 50px;
 }
 
 .top-cta-container{
@@ -17,6 +55,7 @@
 .profile-pic{
     border-radius: 10px;
 }
+
 
 #main-nav{
     
@@ -37,15 +76,7 @@ html {
   font-size: 62.5%;
 }
 
-h1 {
-  margin-bottom: 0.5em;
-  font-size: 3.6rem;
-}
-p {
-  margin-bottom: 0.5em;
-  font-size: 1.6rem;
-  line-height: 1.6;
-}
+
 .button {
   display: inline-block;
   margin-top: 20px;
@@ -420,10 +451,12 @@ a{
 }
 
 
-/* Features section */
+/* Message Section*/
+
 
 #message{
     padding: 3% 25% 3%;
+    background-color: #C9D8BF;
 }
 .feature-icon{
     padding-right:3%;
@@ -457,10 +490,6 @@ a{
 
 .nav-link{
     color:#ED1C24;
-}
-
-#message{
-    background-color: #C9D8BF;
 }
 
 .testimonials-image{
@@ -518,10 +547,20 @@ a{
 
 /*Testimonials*/
 
+#testimonials{
+  padding: 5% 10% 5%;
+  text-align: center;
+  background-color: antiquewhite;
+}
 
-.testimonials-title{
-    font-family: 'Satisfy','serif';
-    font-size: 4rem
+#testimonial-carousel{
+  padding: 0% 10% 0%;
+  height: 250px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  height: 4rem;
+  width: 4rem;
 }
 
 
@@ -590,4 +629,60 @@ input, textarea{
 .contact-button{
     font-size: 2rem;
     margin-top: 20px;
+}
+
+/* About Me Title */
+
+#abme-title, #wl-title{
+  background-color:#C9D8BF;
+  text-align: center;
+}
+
+.abme-title-container{
+  padding: 10% 20% 5%
+}
+
+/* About Me Message */
+
+#abme-message{
+  padding: 5% 10% 5%
+}
+
+/* Especialidades */
+
+#especialidades{
+  padding:0% 10% 5%
+}
+
+.esp-title{
+  margin-left: 10px;
+}
+
+.esp-container{
+  padding-top:5%;
+}
+
+/*Weight Loss*/
+
+.plan-title{
+  font-family: 'Caudex','serif';
+  font-size: 5rem;
+  text-align: center;
+}
+
+/*Plan Description*/
+
+#plan-description{
+  padding:5% 10% 5%;
+}
+
+.plan-photo{
+  border-radius: 10px;
+  height:400px;
+}
+
+.plan-text{
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  line-height: 1.6;
 }
