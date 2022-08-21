@@ -20,6 +20,8 @@
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/7658c8985a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css" />
+  <!--Icon-->
+  <link href="images/DB-sm-logo.png" rel="icon">
 </head>
 
 <body>
@@ -28,7 +30,7 @@
   <header class="header-area overlay">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
       <div class="container">
-        <a href="#" class="navbar-brand">Diana Bermeo</a>
+        <img class='logo-img' src="images/DB-logo.png"/>
 
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
           <span class="menu-icon-bar"></span>
@@ -38,10 +40,10 @@
 
         <div id="main-nav" class="collapse navbar-collapse flex justify-content-end">
           <ul class="navbar-nav ml-auto">
-            <li><a href="#" class="nav-item nav-link active">Home</a></li>
-            <li><a href="#" class="nav-item nav-link">Sobre Mí</a></li>
+            <li><a href="#title" class="nav-item nav-link active">Home</a></li>
+            <li><a href="aboutme.html" class="nav-item nav-link">Sobre Mí</a></li>
             <li class="dropdown">
-              <a href="#" class="nav-item nav-link" data-toggle="dropdown">Pérdida de Grasa</a>
+              <a href="weight-loss.html" class="nav-item nav-link" data-toggle="dropdown">Pérdida de Grasa</a>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-item nav-link" data-toggle="dropdown">Aumento de Masa Muscular</a>
@@ -55,6 +57,7 @@
   </header>
 
   <!-- Title -->
+  <section id="title">
   <div class="row img-fluid top-container center">
     <div class="bg-image bg-image-top" style="background-image:url('images/cover-photo.png'); height:30%;">
       <div class="top-cta-container text-center">
@@ -75,7 +78,7 @@
   <section id="message">
     <div class="row">
       <div class="col-lg-6">
-        <img src="images/diana-profile-pic.png" class='img-fluid mx-auto d-block profile-pic' />
+        <img src="images/diana-profile-pic.png" class='img-fluid plan-photo' />
       </div>
       <div class="col-lg-6 paragraph-container">
         <p class="paragraph-text">
@@ -100,8 +103,8 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <h2 class="testimonials-title">Lo que dicen mis clientes:</h2>
-    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+    <h2 class="italic-title">Lo que dicen mis clientes:</h2>
+    <div id="testimonial-carousel" class="carousel slide d-flex align-items-start" data-bs-ride="carousel">
       <div class="carousel-inner row">
         <div class="carousel-item row">
 
@@ -173,7 +176,7 @@
 
   <section id="results">
     <div class="row text-center results-title">
-      <h2 class="testimonials-title">Resultados comprobados!</h2>
+      <h2 class="italic-title">Resultados comprobados!</h2>
     </div>
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -268,19 +271,19 @@
     <form action="#">
       <div class="form-container container-fluid">
         <div class="field d-flex align-items-center">
-          <input type="text" name="name" placeholder="Enter your name">
+          <input type="text" name="name" placeholder="Tu nombre">
           <i class='fas fa-user'></i>
         </div>
         <div class="field d-flex align-items-center">
-          <input type="text" name="email" placeholder="Enter your email">
+          <input type="text" name="email" placeholder="Tu email">
           <i class='fas fa-envelope'></i>
         </div>
         <div class="field d-flex align-items-center">
-          <input type="text" name="phone" placeholder="Enter your phone">
+          <input type="text" name="phone" placeholder="Tu número de WhatsApp">
           <i class='fas fa-phone-alt'></i>
         </div>
       <div class="message field d-flex align-items-center">
-        <textarea placeholder="Write your message" name="message"></textarea>
+        <textarea placeholder="Tu mensaje" name="message"></textarea>
       </div>
       <div class="button-area">
         <button class='btn btn-success action-button contact-button' type="submit">Enviar</button>
@@ -293,11 +296,7 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <div>
-      <i class="fa-brands fa-instagram footer-media"></i>
-      <i class="fa-solid fa-envelope footer-media"></i>
-    </div><br>
-    <p>© Copyright SoulSofa</p>
+    <p>© Diana Bermeo 2022</p>
   </footer>
 </body>
 
